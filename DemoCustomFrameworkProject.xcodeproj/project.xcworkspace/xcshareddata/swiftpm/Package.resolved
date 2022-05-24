@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "democustomframework_newbuild",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KrutiShahFortiate/DemoCustomFramework_NewBuild.git",
+      "state" : {
+        "revision" : "4852dc0fe2f137e89c533d1323bd46f8b4c4e0f1",
+        "version" : "0.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}

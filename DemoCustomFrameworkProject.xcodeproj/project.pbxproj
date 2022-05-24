@@ -17,6 +17,7 @@
 		18F881F9283CDB33002FEAA8 /* DemoCustomFrameworkProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F881F8283CDB33002FEAA8 /* DemoCustomFrameworkProjectTests.swift */; };
 		18F88203283CDB33002FEAA8 /* DemoCustomFrameworkProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F88202283CDB33002FEAA8 /* DemoCustomFrameworkProjectUITests.swift */; };
 		18F88205283CDB33002FEAA8 /* DemoCustomFrameworkProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F88204283CDB33002FEAA8 /* DemoCustomFrameworkProjectUITestsLaunchTests.swift */; };
+		18F88213283CE47A002FEAA8 /* DemoCustomFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 18F88212283CE47A002FEAA8 /* DemoCustomFramework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F88213283CE47A002FEAA8 /* DemoCustomFramework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +148,9 @@
 			dependencies = (
 			);
 			name = DemoCustomFrameworkProject;
+			packageProductDependencies = (
+				18F88212283CE47A002FEAA8 /* DemoCustomFramework */,
+			);
 			productName = DemoCustomFrameworkProject;
 			productReference = 18F881DB283CDB2E002FEAA8 /* DemoCustomFrameworkProject.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +223,9 @@
 				Base,
 			);
 			mainGroup = 18F881D2283CDB2E002FEAA8;
+			packageReferences = (
+				18F88211283CE47A002FEAA8 /* XCRemoteSwiftPackageReference "DemoCustomFramework_NewBuild" */,
+			);
 			productRefGroup = 18F881DC283CDB2E002FEAA8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -606,6 +614,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18F88211283CE47A002FEAA8 /* XCRemoteSwiftPackageReference "DemoCustomFramework_NewBuild" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KrutiShahFortiate/DemoCustomFramework_NewBuild.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18F88212283CE47A002FEAA8 /* DemoCustomFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18F88211283CE47A002FEAA8 /* XCRemoteSwiftPackageReference "DemoCustomFramework_NewBuild" */;
+			productName = DemoCustomFramework;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		18F881E7283CDB2F002FEAA8 /* DemoCustomFrameworkProject.xcdatamodeld */ = {
